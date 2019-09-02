@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_back"
+    tools:context="com.rb.com.myapplication.Interface">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="Interface"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:text="Java provides a new concept called 'interface'. In  Java programming , language is an abstract type that is used to specify a behaviour that classes must implement. Starting with Java 8, default and static methods may have implementation in the interface definition. It is the responsiblity of the implementing class to write code for methods present in interface pack. " />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="Interface Syntax "
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:text="public interface NameOfInterface  " />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:text="{ " />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:text="// Any number of final, static fields
+   // Any number of abstract method declarations\" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:text="} " />
+
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:text="Example   "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:text="interface Dog"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:text="{"></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:text="public void eat();"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:text="public void sound();"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:text="}">
+
+
+        </TextView>
+    </LinearLayout>
+</ScrollView>

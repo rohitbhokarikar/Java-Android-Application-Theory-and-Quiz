@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_back"
+
+    tools:context="com.rb.com.myapplication.Introduction">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/features"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            app:cardElevation="5dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="serif"
+                android:padding="20dp"
+                android:background="@drawable/input_outline"
+                android:textColor="#000000"
+                android:text="Java Features"
+                android:textSize="18sp"
+         />
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/component"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            app:cardElevation="5dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/input_outline"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:fontFamily="serif"
+                android:text="Java Component"
+                android:textSize="18sp"
+        />
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/constantvariablesdatatypes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            app:cardElevation="5dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="serif"
+                android:padding="20dp"
+                android:text="Data Types "
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:background="@drawable/input_outline"
+       />
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/operator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            app:cardElevation="5dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:background="@drawable/input_outline"
+                android:layout_height="match_parent"
+                android:fontFamily="serif"
+                android:padding="20dp"
+                android:text="Operators"
+                android:textSize="18sp"
+                android:textColor="#000000"
+             />
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/decisionmaking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            app:cardElevation="5dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:background="@drawable/input_outline"
+                android:layout_height="match_parent"
+                android:fontFamily="serif"
+                android:padding="20dp"
+                android:text="Decision Making Statements"
+                android:textColor="#000000"
+                android:textSize="18sp"
+          />
+        </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_back"
+    tools:context="com.rb.com.myapplication.JavaComponents">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="Java Bytecode"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:fontFamily="sans-serif"
+            android:text="Bytecodes are nothing but machine language of the Java virtual machine. When a JVM loads a class file, it gets one stream of bytecodes for each method in the class. The bytecode streams are stored in the method area of the JVM. The bytecodes for a method are executed when that method is invoked during the course of running the program. "
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="What is JVM ?"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:fontFamily="sans-serif"
+            android:text="JVM is Java Virtual Machine . It is a specification where working of Java Virtual Machine is specified.  It's implementation has been provided by Sun and other companies. And it's implementation is known as JRE.
+"
+            android:textColor="#000000"
+            android:textSize="20dp"></TextView>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,23 @@
+<p>      </p>
+<p>public class PascalTriangleTest
+<p>       {</p>
+<p></p>
+<p>    public static void main(String[] args)
+<p>       {</p>
+<p></p>
+<p>        int rows = 10;</p>
+<p></p>
+<p></p>
+<p>        for(int i =0;i<rows;i++) {</p>
+<p>            int number = 1;</p>
+<p>            System.out.format("%"+(rows-i)*2+"s","");</p>
+<p>            for(int j=0;j<=i;j++) {</p>
+<p>                System.out.format("%4d",number);</p>
+<p>                 number = number * (i - j) / (j + 1);</p>
+<p></p>
+<p>           }</p>
+<p>            System.out.println();</p>
+<p>        }</p>
+<p></p>
+<p>   }</p>
+<p>}</p>

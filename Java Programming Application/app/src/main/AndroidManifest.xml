@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rbworks.dev.jpf.com">
+
+        <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Java Programming "
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.rbworks.dev.jpf.com.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+
+
+            <activity
+                android:name="com.rbworks.dev.jpf.com.MainPrograme"
+                android:label="Programe"
+                android:parentActivityName="com.rbworks.dev.jpf.com.MainActivity" />
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+
+
+
+
+            <activity
+            android:name="com.rbworks.dev.jpf.com.Introduction"
+            android:label="Introduction"
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainTheory" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.Vector"
+            android:label="Inheritance And Class"
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainTheory" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.Inheritance"
+            android:label="Interface"
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainTheory" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.Thread"
+            android:label="Thread"
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainTheory" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.Applet"
+            android:label="Applet"
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainTheory" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.subfile"
+            android:label="File"
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainTheory" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.MainTheory"
+            android:label="Chapter"
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.MainAbout"
+            android:label="About Us "
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.JavaFeature"
+            android:label="Java Features"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Introduction" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.JavaComponents"
+            android:label="Java Components"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Introduction" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.ConstantsVariableDatatypes"
+            android:label="Data Types"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Introduction" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.Operators"
+            android:label="Operators"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Introduction" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.DecisionMaking"
+            android:label="Decision Making Statements"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Introduction" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.Constructor"
+            android:label="Constructor"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Vector" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.Thethiskeyword"
+            android:label="The this Keyword"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Vector" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.GarbageCollection"
+            android:label="Garbage Collection"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Vector" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.CommandLineArguments"
+            android:label="Command Line Arguments"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Vector" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.InheritanceActual"
+            android:label="Inheritance"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Vector" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.SuperKeyword"
+            android:label="super Keyword"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Vector" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.Array"
+            android:label="Array"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Vector" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.StringClass"
+            android:label="String Class"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Vector" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.VectorActual"
+            android:label="Vectors "
+            android:parentActivityName="com.rbworks.dev.jpf.com.Vector" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.Interface"
+            android:label="Interface "
+            android:parentActivityName="com.rbworks.dev.jpf.com.Inheritance" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.Packages"
+            android:label="Packages "
+            android:parentActivityName="com.rbworks.dev.jpf.com.Inheritance" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.TheImportStatement"
+            android:label="The import Statement"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Inheritance" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.DifferenceBetweenClassAndInterface"
+            android:label="Difference Between Class and Interface"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Inheritance" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.JavaPackage"
+            android:label="Java Packages"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Inheritance" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.Multithreading"
+            android:label="Multithreading"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Thread" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.LifeCycleOfThread"
+            android:label="Life Cycle Of Thread"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Thread" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.CreatingThread"
+            android:label="Creating Thread"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Thread" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.ThreadMethods"
+            android:label="Thread Methods"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Thread" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name=".Exceptions"
+            android:label="Exception "
+            android:parentActivityName="com.rbworks.dev.jpf.com.Thread" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.ExxceptionHandlingSyntax"
+            android:label="Exception Handling Syntax "
+            android:parentActivityName="com.rbworks.dev.jpf.com.Thread" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.FinallyStatement"
+            android:label="finally Block "
+            android:parentActivityName="com.rbworks.dev.jpf.com.Thread" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.ThrowingOurOwnException"
+            android:label="Throwing Our Own Exception "
+            android:parentActivityName="com.rbworks.dev.jpf.com.Thread" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.Addition"
+            android:label="Addition Programe "
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainPrograme" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.TakeInput"
+            android:label="Take Input Programe "
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainPrograme" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.Factorial"
+            android:label="Factorial Programe "
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainPrograme" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.PrimeNumber"
+            android:label="Prime Number Programe "
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainPrograme" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.PalindromNumber"
+            android:label="Palindrome Number Programe "
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainPrograme" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.FibonacciSeries"
+            android:label="Fibonacci Series Programe "
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainPrograme" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.WhatIsApplet"
+            android:label="What is Applet ?"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Applet" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.WritingFirstApplet"
+            android:label="Writing First Applet"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Applet" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.MethodsOfGraphicsClass"
+            android:label="Methods Of Graphics Class"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Applet" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.LifeCycleOfApplet"
+            android:label="Life Cycle Of Applet"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Applet" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.AppletTagAttributes"
+            android:label="The Applet Tag"
+            android:parentActivityName="com.rbworks.dev.jpf.com.Applet" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.MethodsOfFileInput"
+            android:label="Methods Of File Input Stream"
+            android:parentActivityName="com.rbworks.dev.jpf.com.subfile" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.MethodsOfFileOutput"
+            android:label="Methods Of File Output Stream"
+            android:parentActivityName="com.rbworks.dev.jpf.com.subfile" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.Serialization"
+            android:label="Serialization"
+            android:parentActivityName="com.rbworks.dev.jpf.com.subfile" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.MethodsOfFile"
+            android:label="Methods Of File Class"
+            android:parentActivityName="com.rbworks.dev.jpf.com.subfile" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.EvenorOdd"
+            android:label="Even Or Odd"
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainPrograme" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.PascalTriangle"
+            android:label="Pascal Triangle"
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainPrograme" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.ArmstrongNumber"
+            android:label="Armstrong Number"
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainPrograme" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.SwappingUsingTwo"
+            android:label="Swapping Using Two Variable"
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainPrograme" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.InheritancePrograme"
+            android:label="Inheritance Programe"
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainPrograme" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.SuperKeywordPrograme"
+            android:label="Super Keyword Programe"
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainPrograme" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.ThreadPrograme"
+            android:label="Thread Programe"
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainPrograme" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.UserExceptionPrograme"
+            android:label="Programe for User Defined Exception "
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainPrograme" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.VectorPrograme"
+            android:label="Vector Programe"
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainPrograme" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.InterfacePrograme"
+            android:label="Interface Programe"
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainPrograme" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.ArrayExamplePro"
+            android:label="Array"
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainPrograme" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.QuizActivity"
+            android:label="Java Quiz"
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+
+
+        <activity
+            android:name="com.rbworks.dev.jpf.com.ResultActivity"
+            android:label="Result"
+            android:parentActivityName="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jpf.com.MainActivity" />
+
+        <activity android:name=".MainActivity"></activity>
+
+
+    </application>
+
+</manifest>

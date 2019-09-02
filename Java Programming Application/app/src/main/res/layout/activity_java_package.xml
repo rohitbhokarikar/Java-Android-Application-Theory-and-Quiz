@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_back"
+    tools:context="com.rb.com.myapplication.JavaPackage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="Java Package"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:text="Java contains java package it is a group of similar types of classes, interfaces and sub-packages.
+
+Package in java can be categorized in two form, built-in package and user-defined package.
+
+There are many built-in packages such as java, lang, awt, javax, swing, net, io, util, sql etc.. " />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="Advantages of Java Package "
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:text="1) Java package removes naming collision    " />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:text="2) Java package provides access protection.   " />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:text="3)  Java package is used to categorize the classes and interfaces so that they can be easily maintained.  " />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="Some Java Packages   "
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_javapack"/>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

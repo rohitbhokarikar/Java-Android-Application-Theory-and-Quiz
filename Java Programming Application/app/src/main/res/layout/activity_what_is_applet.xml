@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_back"
+    tools:context="com.rb.com.myapplication.VectorActual">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="Applet"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:text="In java Applet is a special type of program that is embedded in the webpage to generate the dynamic content. It runs inside the browser or appletviewer and works at client side."  />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="Advantages of Applet :"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:text="1) Secured"  />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:text="2) It can be executed by browsers running under many plateforms, including Linux, Windows, Mac Os etc. "  />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:text="3) It works at client side so less response time.  "  />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

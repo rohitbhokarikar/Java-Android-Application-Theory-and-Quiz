@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_back"
+    tools:context="com.rb.com.myapplication.JavaFeature">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="Java Features"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#000000"
+            android:text="1) Compiled and Interpreted"></TextView>
+
+        <TextView
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#000000"
+            android:text="2) Platform Independent"></TextView>
+
+        <TextView
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#000000"
+            android:text="3) Object Oriented"></TextView>
+
+        <TextView
+            android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            android:layout_margin="20dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#000000"
+        android:text="4) Robust and Secure"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:fontFamily="sans-serif"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:text="5) Distributed"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#000000"
+            android:text="6) Familiar Simple and Small"></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#000000"
+            android:text="7) Multithreaded"></TextView>
+
+
+        <TextView
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#000000"
+            android:text="8) High Performance"></TextView>
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

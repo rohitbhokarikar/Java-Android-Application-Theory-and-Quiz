@@ -1,0 +1,28 @@
+<p>import java.util.Scanner;</p>
+<p>class PrimeNumber</p>
+<p>{</p>
+<p>   public static void main(String args[])</p>
+<p>   {</p>
+<p>	int temp;</p>
+<p>	int flag=0;</p>
+<p>	Scanner in = new Scanner(System.in);</p>
+<p>	System.out.println("Enter number:");</p>
+<p></p>
+<p>	int num= in .nextInt();</p>
+<p>        in.close();</p>
+<p>	for(int i=2;i<=num/2;i++)</p>
+<p>	{</p>
+<p>           temp=num%i;</p>
+<p>	   if(temp==0)</p>
+<p>	   {</p>
+<p>	      flag=1;</p>
+<p>	      break;</p>
+<p>	   }</p>
+<p>	}</p>
+<p></p>
+<p>	if(flag==0)</p>
+<p>	   System.out.println(num + " is a Prime Number");</p>
+<p>	else</p>
+<p>	   System.out.println(num + " is not a Prime Number");</p>
+<p>   }</p>
+<p>}</p>

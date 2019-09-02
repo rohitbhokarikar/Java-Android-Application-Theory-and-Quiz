@@ -1,0 +1,25 @@
+<p>public class PalindromeNumber </p>
+<p>{</p>
+<p></p>
+<p>    public static void main(String[] args)</p>
+<p>    {</p>
+<p></p>
+<p>        int num = 212, reversed = 0, remainder, original;</p>
+<p></p>
+<p>        original = num;</p>
+<p></p>
+<p>       </p>
+<p>        while( num != 0 )</p>
+<p>        {</p>
+<p>            remainder = num % 10;</p>
+<p>            reversed = reversed* 10 + remainder;</p>
+ <p>           num  /= 10;</p>
+ <p>       }</p>
+<p></p>
+<p>        </p>
+<p>        if (original == reversed)</p>
+<p>            System.out.println(original + " is a palindrome.");</p>
+<p>        else</p>
+<p>            System.out.println(original + " is not a palindrome.");</p>
+ <p>   }</p>
+<p>}</p>

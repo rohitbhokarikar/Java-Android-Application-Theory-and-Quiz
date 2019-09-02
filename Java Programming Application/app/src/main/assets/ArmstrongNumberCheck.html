@@ -1,0 +1,30 @@
+<p>import java.util.Scanner;</p>
+<p></p>
+<p>public class ArmstrongNumberCheck</p>
+<p>{</p>
+<p>    public static void main(String args[])</p>
+<p>    {</p>
+<p>        int n, nu, num=0, rem;</p>
+<p>        Scanner scan = new Scanner(System.in);</p>
+<p></p>
+<p>        System.out.print("Enter any Number ");</p>
+<p>        n = scan.nextInt();</p>
+<p></p>
+<p>        nu = n;</p>
+<p></p>
+<p>        while(nu != 0)</p>
+<p>        {</p>
+<p>            rem = nu%10;</p>
+<p>            num = num + rem*rem*rem;</p>
+<p>            nu = nu/10;</p>
+<p>        }</p>
+<p>        if(num == n)</p>
+<p>        {</p>
+<p>            System.out.print("Armstrong Number");</p>
+<p>        }</p>
+<p>       else</p>
+<p>        {</p>
+<p>            System.out.print("Not a Armstrong Number");</p>
+<p>        }</p>
+<p>    }</p>
+<p>}</p>

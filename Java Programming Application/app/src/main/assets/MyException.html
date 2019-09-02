@@ -1,0 +1,30 @@
+<p></p>
+<p>class MyException extends Exception</p>
+<p>{</p>
+<p>    public MyException(String s)</p>
+<p>    {</p>
+<p>       </p>
+<p>        super(s);</p>
+<p>    }</p>
+<p>}</p>
+<p> </p>
+<p></p>
+<p>public class Main</p>
+<p>{</p>
+<p></p>    
+<p>    public static void main(String args[])</p>
+<p>    {</p>
+<p>        try</p>
+<p>        {</p>
+<p>            </p>
+<p>            throw new MyException("Exception Occur");</p>
+<p>        }</p>
+<p>        catch (MyException ex)</p>
+<p>        {</p>
+<p>            System.out.println("Caught");</p>
+<p> </p>
+<p>     </p>       
+<p>           System.out.println(ex.getMessage());</p>
+<p>        }</p>
+<p>    }</p>
+<p>}</p>
